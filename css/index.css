@@ -1,0 +1,144 @@
+*{
+    color: seashell;
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: Helvetica;
+    text-align: center; 
+    width: 100%;
+}
+
+h1, 
+h2, 
+h3, 
+h4,
+h5, 
+p {
+    opacity: .7;
+}
+
+div {
+    opacity: 1;
+    background-color: black;  
+}
+
+a {
+    color: white;
+    padding: 10px
+}
+
+.navbar {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.navbar img {
+    float: left;
+    height: 50px;
+    margin: 10px;
+}
+.nav-right {
+    float: right;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    padding-right: 10px;
+    line-height: 5;
+}
+
+.main-background {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#bg-image {
+    height: 700px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1lukjqh*_ga*NTcxNDA1NDEzNi4xNjY5OTE2NDE0*_ga_3LRZM6TM9L*MTY3NTg3NjY4Ni43Mi4xLjE2NzU4NzY2ODkuNTcuMC4w");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    line-height: 50px;
+}
+
+.top-tea {
+    width: 1000px;
+    display: inline-block;
+    margin-top: 30px;
+    line-height: 2;
+}
+
+.tea-list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 30px;
+   line-height: 2;
+   margin-top: 20px;
+}
+
+.tea img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#location-container {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*wuaant*_ga*NTcxNDA1NDEzNi4xNjY5OTE2NDE0*_ga_3LRZM6TM9L*MTY3NjAzMDcyNS43NC4xLjE2NzYwMzA3NDUuNDAuMC4w");
+    height: 500px;
+    margin-top: 50px;
+    width: 1200px;
+    display: inline-block;
+}
+
+#locations-text {
+    background: none;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#locations-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: none;
+}
+
+.flex-box {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    line-height: 4;
+}
+
+#contact {
+    height: 200px;
+    margin-top: 30px;
+    line-height: 2;
+}
+
+#copyright {
+    text-align: left;
+    padding: 30px;
+}
