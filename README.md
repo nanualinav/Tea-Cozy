@@ -2,4 +2,4 @@
 
 This project is a fictional tea shop responsive webpage, built from scratch using flexbox layout. 
 
-View it live here: 
+View it live here: https://nanualinav.github.io/Tea-Cozy/
